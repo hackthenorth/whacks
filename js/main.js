@@ -28,7 +28,6 @@ $(document).ready(function(){
 
 	$('.sponsor').each(function(){
 		$(this).click(function(){
-			ga('send', 'Sponsors', 'Click', $(this).attr('href'));
 		});
 	});
 
@@ -60,13 +59,11 @@ function switchAudio() {
 }
 
 function unMute(){
-	ga('send', 'Audio', 'Unmute');
 	video.muted = false;
-	$('.mute').text('Mute');	
+	$('.mute').text('Mute');
 }
 
 function mute(){
-	ga('send', 'Audio', 'Mute');
 	video.muted = true;
-	$('.mute').text('Play Music');	
+	$('.mute').text('Play Music');
 }
