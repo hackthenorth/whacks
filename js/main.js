@@ -6,7 +6,7 @@ var refreshcount = 0;
 
 $(document).ready(function(){
 	mixpanel.track('page view');
-	mixpanel.track_links(".mhacks-button", "Clicked Register");
+	mixpanel.track_links(".whacks-button", "Clicked Register");
 	mute();
 
 	window.addEventListener('focus', function() {

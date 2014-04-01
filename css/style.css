@@ -35,8 +35,8 @@ section {
   	-webkit-box-shadow: 1px 1px 1px 1px #ccc;
   	box-shadow:         1px 1px 1px 1px #ccc;
 
-	-moz-box-sizing: border-box; 
-	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -50,7 +50,7 @@ html, body {
 	text-decoration: none;
 }
 
-.mhacks-button {
+.whacks-button {
 	display:block;
 	width: 280px;
 	border-radius: 5px;
@@ -66,10 +66,10 @@ html, body {
 	margin: 0 auto;
 	-webkit-user-select: none;  /* Chrome all / Safari all */
   	-moz-user-select: none;     /* Firefox all */
-  	-ms-user-select: none; 
+  	-ms-user-select: none;
 }
 
-.mhacks-button:active {
+.whacks-button:active {
 	border-right:1px solid #FF6F3B;
 	border-bottom:1px solid #FF6F3B;
 	border-left:3px solid #BD2C00;
@@ -84,7 +84,7 @@ html, body {
 }
 
 .big-house-bg {
-/*	-webkit-transition: -webkit-filter 3s;  
+/*	-webkit-transition: -webkit-filter 3s;
 */	background-size:cover;
 	-webkit-filter: grayscale(50%);
 	background-image:url(../img/bighouse3.jpg);
@@ -98,11 +98,11 @@ html, body {
 }
 
 .big-house-bg:hover {
-	-webkit-filter: grayscale(0%);	
+	-webkit-filter: grayscale(0%);
 }
 
 .colored {
-	-webkit-filter: grayscale(25%);	
+	-webkit-filter: grayscale(25%);
 }
 
 /* Section-wide styles */
@@ -115,8 +115,8 @@ html, body {
 .container {
 	width: 960px;
 	margin: 0 auto;
-	-moz-box-sizing: border-box; 
-	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	padding:0 20px;
 	position:relative;
@@ -220,7 +220,7 @@ html, body {
 		padding: 40px 0;
 		height: 530px;
 	}
-	
+
 	#stats > .container > h2 {
 		font-size: 80px;
 		text-align: right;
@@ -251,7 +251,7 @@ html, body {
 		background-image: url('../img/bighouse2.jpg');
 		background-position: center top;
 	}
-	
+
 	#big-house > .container > h3 {
 		text-align: left;
 		margin-top: 50px;
@@ -346,8 +346,8 @@ html, body {
 		float: left;
 		padding: 5px 10px 5px 0px;
 		overflow: hidden;
-		-moz-box-sizing: border-box; 
-		-webkit-box-sizing: border-box; 
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 		font-weight: 400;
 		font-style:normal;
@@ -405,7 +405,7 @@ html, body {
 /* ------------------- */
 /* Section 5: Sponsors */
 /* ------------------- */
-	
+
 	#sponsors {
 		padding: 50px 0;
 		height:auto;
@@ -441,7 +441,7 @@ html, body {
 /*		-webkit-transition: -webkit-filter .5s;
 */		transition: -webkit-filter, opacity .5s;
 	}
-	
+
 	.sponsor.big-sponsor {
 		width:853px;
 		height:240px;
