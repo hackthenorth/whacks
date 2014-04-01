@@ -248,8 +248,8 @@ html, body {
 	#big-house {
 		padding: 50px 0;
 		color: white;
-		background-image: url('../img/bighouse2.jpg');
-		background-position: center top;
+		background-image: url('../img/igloo.jpg');
+		background-position: center bottom;
 	}
 
 	#big-house > .container > h3 {
