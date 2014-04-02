@@ -369,6 +369,7 @@ html, body {
 	}
 
 	.contact-info {
+		display: none;
 		width: 300px;
 		height: 200px;
 		position: absolute;

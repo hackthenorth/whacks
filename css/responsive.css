@@ -127,6 +127,7 @@ MHACKS IS FOREVER
 	}
 
 	.contact-info {
+		display: none;
 		width: 300px;
 		height: auto;
 		position: relative;
@@ -145,7 +146,7 @@ MHACKS IS FOREVER
 
 	#sponsors > .container > h2 {
 		font-size: 36px;
-		margin-top: -20px;	
+		margin-top: -20px;
 	}
 
 	.sponsor {
