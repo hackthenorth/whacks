@@ -5,7 +5,7 @@ var refreshcount = 0;
 
 
 $(document).ready(function(){
-	mute();
+	// mute();
 
 	window.addEventListener('focus', function() {
 //	    document.title = 'focused';
