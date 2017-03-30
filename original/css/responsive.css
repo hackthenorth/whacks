@@ -1,0 +1,165 @@
+/*
+
+MHACKS IS FOREVER
+
+*/
+
+
+@media (max-width: 540px) {
+	body {
+		min-width: 100%;
+	}
+
+	.mute {
+		display: none;
+	}
+
+	.landing-block {
+		position: relative;
+		padding: 20px 0;
+		top: auto;
+		left: auto;
+		width: 100%;
+		background-image:url('../img/mobile-bg.jpg');
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+
+	.landing-title {
+		font-size:32px;
+	}
+
+	.landing-date {
+		margin-top: 0px;
+	}
+
+	.landing-logo {
+		width: 100px;
+		margin: 20px auto;
+	}
+
+	section {
+		height: auto;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	.background-video-wrapper {
+		display: none;
+	}
+
+	#stats {
+		height: auto;
+	}
+
+	#stats > .container > h2 {
+		font-size: 28px;
+		margin: 0;
+		text-align: center;
+	}
+
+	#big-house > .container > h1 {
+		text-align: center;
+		font-size:70px;
+		width: auto;
+	}
+
+	#big-house > .container > h2 {
+		text-align: center;
+		padding: 0px;
+		margin: 20px 0;
+		font-size: 36px;
+	}
+
+	#big-house > .container > h3 {
+		text-align: center;
+		margin-top: -10px;
+	}
+
+	.big-house-info {
+		width: auto;
+		float: none;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.footer > .container {
+		line-height: 28px;
+		padding: 20px;
+	}
+
+	.background-video-wrapper {
+		height: auto;
+	}
+
+	#logistics {
+		padding: 0px;
+	}
+
+	#logistics > .container > h2 {
+		text-align: center;
+		font-size: 36px;
+		margin-top:30px;
+		margin-bottom: 40px;
+	}
+
+	#logistics > .container > h4 {
+		width: 100%;
+		text-align: center;
+		line-height: 1.1em;
+		font-size: 20px;
+	}
+
+	#logistics > .container > h3 {
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.faq-block {
+		margin: 5px auto 0 0;
+		padding: 0px;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.contact-info {
+		width: 300px;
+		height: auto;
+		position: relative;
+		margin:0 auto;
+		float: none;
+		top: 20px;
+		margin-bottom: 50px;
+		font-size: 18px;
+		line-height: 1.2em;
+		text-align: center;
+	}
+
+	.contact-info > h3 {
+		font-size:30px;
+	}
+
+	#sponsors > .container > h2 {
+		font-size: 36px;
+		margin-top: -20px;	
+	}
+
+	.sponsor {
+		-webkit-filter: grayscale(0%);
+		opacity:1;
+		margin:20px 20px;
+		width:120px;
+		height:60px;
+		margin:10px 10px;
+	}
+
+	.sponsor.big-sponsor {
+		width:250px;
+		height:100px;
+	}
+
+}
